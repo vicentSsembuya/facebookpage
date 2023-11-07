@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.header .cover{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+    background: url(images/two.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.header .cover .coverE{
+    
+    width: 300px;
+    height: 100px;
+    display: block;
+}
+.header .cover .coverE button{
+    
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: rgba(71, 67, 67, .6);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.header .profile{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.header .profile .img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -80px;
+    margin-left: 60px;
+    background: url(images/one.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.header .profile .img .edit_p{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(212, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.header .profile .img .edit_p img{
+    width: 50%;
+    height: 50%;
+    
+}
+.header .profile .name{
+    width: 500px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header .profile .name h2{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.header .profile .name p{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.header .profile .buttons{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.header .profile .buttons button{
+    margin-left: 20px;
+}
+.header .profile .buttons button:nth-child(1){
+    background-color: #146EB4;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    outline: none;
+}
+.header .profile .buttons button:nth-child(2){
+    background-color: grey;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    outline: none;
+}
+.header .profile .buttons button:nth-child(3){
+    background-color: grey;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transform: rotateX(90);
+    outline: none;
+}
+.header .links{
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.header .links ul{
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+}
+.header .links ul li{
+    margin-left: 17px;
+}
+.header .links ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.active{
+    text-decoration: underline;
+    color: #146EB4;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.container .left , .right{
+    width: 50%;
+    height: auto;
+}
+.container .left .left1st{
+    line-height: 25px;
+    width: 90%;
+    background-color: #CACCCE;
+    border-radius: 10px;
+    height: auto;
+    padding: 8px;
+    margin: 30px;
+}
+.container .left .left1st button{
+    width: 90%;
+    background-color: #146EB4;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    
+}
+.container .left .left1st button:hover{
+    background-color: white;
+    color: #146EB4;
+    
+}
+.container .left .left1st p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container .left .left1st img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container .left .left2nd{
+    line-height: 25px;
+    width: 90%;
+    background-color: #CACCCE;
+    border-radius: 10px;
+    height: auto;
+    padding: 8px;
+    margin: 30px;
+}
+.container .left .left2nd .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.container .left .left2nd .text h4{
+    color: #146EB4;
+}
+.container .left .left2nd .text .images{
+    width: 90%;
+    margin-left: 5%;
+    padding: 30px;
+    height: auto;
+    display: grid;
+    grid-row: repeat;
+}
+.container .left .left2nd .text .images img{
+    margin: 10px;
+}
+.container .right .right1st{
+    line-height: 25px;
+    width: 90%;
+    background-color: #CACCCE;
+    border-radius: 10px;
+    height: auto;
+    padding: 8px;
+    margin: 30px;
+}
+.onmind{
+    display: flex;
+    align-items: center;
+}
+.onmind img{
+    border-radius: 50%;
+    margin: 10px;
+}
+.onmind input{
+    border-radius: 15px;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+}
+.posting{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+hr{
+    color: #146EB4;
+    margin: 15px;
+}
+.friend_list{
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.friend_list .friend{
+    width: 30%;
+    margin-left: 3%;
+    height: 80%;
+    display: block;
+}
+.container .right .right2nd{
+    line-height: 25px;
+    width: 90%;
+    background-color: #CACCCE;
+    border-radius: 10px;
+    height: auto;
+    padding: 8px;
+    margin: 30px;
+}
+.container .right .right2nd .poster{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container .right .right2nd .poster img{
+    border-radius: 50%;
+    margin: 10px;
+}
+.born{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.commenting{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.commenting button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+.commenting button:hover{
+    background-color: #146EB4;
+    color: white;
+}
+.left1st button:hover{
+   background-color: white;
+   color: #146EB4;
+}
